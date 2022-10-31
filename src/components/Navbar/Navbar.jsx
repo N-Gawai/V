@@ -1,13 +1,8 @@
-import React from "react";
-import classes from "./Navbar.module.css";
-
-const Navbar = () => {
-  return (
-    <>
-      <h1></h1>
-      <h1 className={classes.text}>Naabskdbkvbar</h1>
-    </>
-  );
-};
-
-export default Navbar;
+import { BubblyLink } from "react-bubbly-transitions";
+export const Navbar = () => (
+  <nav className="an imate-in" style={{ animationDelay: "80Oms" }}>
+    <BubblyLink to="/">Docs</BubblyLink>
+    <BubblyLink to="/about ">About</BubblyLink>
+    <BubblyLink to="/contact ">Contact</BubblyLink>
+  </nav>
+);
